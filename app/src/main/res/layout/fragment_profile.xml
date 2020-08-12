@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_above="@+id/bottom_nav"
+    android:background="#F7DC6F ">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#D1593F"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                >
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    >
+
+                    <Button
+
+
+                        android:textStyle="bold"
+                        android:text="Play Audio"
+                        android:layout_margin="5dp"
+                        android:background="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        />
+                    <Button
+                        android:textStyle="bold"
+                        android:text="Play Video"
+                        android:background="#fff"
+                        android:layout_margin="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+
+                        />
+                    <Button
+                        android:textStyle="bold"
+                        android:text="Upload img"
+                        android:layout_margin="5dp"
+                        android:background="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+
+                        />
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_marginStart="100dp"
+                    android:layout_toRightOf="@id/lay1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/mia"
+
+                        />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#D1593F "
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                >
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    >
+
+                    <Button
+
+
+                        android:textStyle="bold"
+                        android:text="Play Audio"
+                        android:layout_margin="5dp"
+                        android:background="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        />
+                    <Button
+                        android:textStyle="bold"
+                        android:text="Play Video"
+                        android:background="#fff"
+                        android:layout_margin="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+
+                        />
+                    <Button
+                        android:textStyle="bold"
+                        android:text="Upload img"
+                        android:layout_margin="5dp"
+                        android:background="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+
+                        />
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_marginStart="100dp"
+                    android:layout_toRightOf="@id/lay1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ome"
+
+                        />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#D1593F"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                >
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:id="@+id/lay2"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    >
+
+                    <Button
+
+
+                        android:textStyle="bold"
+                        android:text="Play Audio"
+                        android:layout_margin="5dp"
+                        android:background="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        />
+                    <Button
+                        android:textStyle="bold"
+                        android:text="Play Video"
+                        android:background="#fff"
+                        android:layout_margin="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+
+                        />
+                    <Button
+                        android:textStyle="bold"
+                        android:text="Upload img"
+                        android:layout_margin="5dp"
+                        android:background="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+
+                        />
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_marginStart="100dp"
+                    android:layout_toRightOf="@id/lay1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/original"
+
+                        />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#D1593F "
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                >
+                <LinearLayout
+                    android:layout_margin="10dp"
+
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    >
+
+                    <Button
+
+
+                        android:textStyle="bold"
+                        android:text="Play Audio"
+                        android:layout_margin="5dp"
+                        android:background="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        />
+                    <Button
+                        android:textStyle="bold"
+                        android:text="Play Video"
+                        android:background="#fff"
+                        android:layout_margin="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+
+                        />
+                    <Button
+                        android:textStyle="bold"
+                        android:text="Upload img"
+                        android:layout_margin="5dp"
+                        android:background="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+
+                        />
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_marginStart="100dp"
+                    android:layout_toRightOf="@id/lay1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/tony"
+
+                        />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
